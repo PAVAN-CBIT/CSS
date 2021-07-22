@@ -1,0 +1,16 @@
+<html>
+<head>
+<style>
+p{
+ background-color:light blue;
+}
+p{
+  color:red;
+  font-family:verdana;
+}
+</style>
+</head>
+<body>
+<p>This is Paragraph</p>
+</body>
+</html>
