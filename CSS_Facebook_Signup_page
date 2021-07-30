@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Sign Up</title>
+	<link rel="stylesheet" href="dist/css/bootstrap.min.css">
+</head>
+<style>
+	#fb{
+
+		color: white;
+		margin-left: 5;
+	}
+
+ #right_form{
+
+
+
+ 	float: right;
+ 	margin-right: 5%;
+ }
+ button{
+
+
+ 	background-color: blue;
+ }
+ #inp2{
+
+
+ 	margin-left: 105%;
+ 	margin-top: -20%;
+ }
+ .inp_2 input{
+
+ 	width: 284%;
+ 	margin-top: 6%;
+ }
+ #gen{
+
+ 	margin-top: 2%;
+ }
+ #sub_data{
+
+ 	margin-left: 100%;
+ 	margin-top: -16%;
+ }
+ .btn{
+
+ 	width: 100%;
+ }
+ #l_form{
+
+ 	float: left;
+ 	font-weight: bold;
+ 	margin-left: 5%;
+ 	margin-top: 2%;
+ }
+
+
+</style>
+<body>
+<nav class="navbar navbar-primary bg-primary">
+<h1 id="fb">facebook</h1>
+<div id="right-form">
+	<input type="text" placeholder="Enter your first name">
+	<input type="text" placeholder="Enter your last name">
+	<input type="text" placeholder="Enter your Email ">
+	<input type="text" placeholder="Re-Enter your Email">
+	<input type="text" placeholder="Enter your Password">
+	<button>login</button>
+</div>   
+	<div id="r-form">
+		<h3>Signup</h3>
+		<form>   
+         <input type="text" name="first name" class="form-control">
+          <input type="text" name="last name" class="form-control">
+           <input type="text" name="Email" class="form-control">
+            <input type="text" name="Create Password" class="form-control">
+             <input type="text" name="confirm password" class="form-control">
+              <input type="text" name="Re-enter Password" class="form-control">
+
+
+</div>
+
+
+		</form>
+		<h6>Birthday</h6>
+		<input type="date">
+		<div id="sub_data">
+			<p>somedata</p>
+		</div>
+		<h6 id="gen">Gender</h6>
+		Female<input type="radio" name="gender">
+		Male<input type="radio" name="gender">
+		<p>somedata</p>
+		<button class="btn btn-success">sign up</button>
+
+
+		
+
+	
+
+
+
+</div>
+
+</body>
+</html>
