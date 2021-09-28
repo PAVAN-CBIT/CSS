@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>I N L I N E </title>
+</head>
+<body>
+	<center><u><h1 style="color:red; background-color:black;">I N L I N E   S T Y L E S H E E T</h1></u></center>
+<p1 style="color: blueviolet;">An inline CSS is used to apply a unique style to a single HTML element. An inline CSS uses the style attribute of an HTML element.With CSS, you can control the color, font, the size of text, the spacing between elements, how elements are positioned and laid out, what background images or background colors are to be used, different displays for different devices and screen sizes, and much more!</p>
+
+<p2 style="color: darkgreen;">Tip: The word cascading means that a style applied to a parent element will also apply to all children elements within the parent. So, if you set the color of the body text to "blue", all headings, paragraphs, and other text elements within the body will also get the same color (unless you specify something else)!</p2>
+
+</body>
+</html>
