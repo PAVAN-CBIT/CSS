@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>M E N U B A R</title>
+	<style type="text/css">
+
+
+	*{
+		margin: 0px;
+		padding: 0px;
+	}
+		body
+		{
+          background-image: url(pop.png);
+          background-size:100%;
+          margin-top: 20px;
+          margin-left: 20px;
+
+		}
+		ul{
+			list-style-type: none;
+
+		}
+		ul li ul
+		{
+           display: none;
+
+
+		}
+
+		ul li:hover>ul{
+
+			display: block;
+		}
+		ul li
+		{
+          width: 200px;
+          height: 40px;
+          float: left;
+          background-color:black;
+          color: red;
+          text-align: center;
+          font-size: 20px;
+          line-height: 40px;
+          border-radius: 20px;
+		}
+		ul li a
+		{
+          text-decoration: none;
+          color: red;
+		}
+		ul li:hover{
+			background-color: limegreen;
+			color: whitesmoke;
+		}
+		ul li ul li
+		{
+          position: relative;
+
+		}
+		ul li ul li ul
+		{
+			position: absolute;
+            left:200px;
+            top: 0px;
+
+		}
+	</style>
+</head>
+<body>
+ <ul>
+ 	
+   <li><a href="https://www.glassdoor.co.in/index.htm">Home</a></li>
+   <li><a href="https://www.shine.com/">About us</a></li>
+   <li><a href="https://tophire.co/">Courses</a>
+
+   	<ul>
+   		<li><a href="#">HTML</a>
+
+   			<ul>
+   				<li><a href="https://www.google.com/search?q=edureka+login&rlz=1C1CHBD_enIN963IN963&oq=edure&aqs=chrome.2.69i57j0i433i512l3j0i512l2j69i60l2.21317j0j7&sourceid=chrome&ie=UTF-8">A</a></li>
+   				<li><a href="https://www.edureka.co/cloud-computing-certification-courses">B</a></li>
+   				<li><a href="https://www.edureka.co/bi-and-visualization-certification-courses">C</a></li>
+   				<li><a href="https://www.edureka.co/programming-and-frameworks-certification-courses">D</a></li>
+   			</ul>
+   		</li>
+   		<li><a href="#">CSS</a></li>
+   		<li>JS</li>
+   		<li>JAVA</li>
+   	</ul>
+
+
+   </li>
+   <li><a href="https://www.geeksforgeeks.org/company-interview-corner/">Videos</a></li>
+   <li>Contact</li>
+
+
+ </ul>
+
+
+
+</body>
+</html>
