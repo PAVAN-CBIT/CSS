@@ -1,0 +1,32 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Selectors</title>
+        <style>
+            h1{
+                color: red;
+            }
+            @media screen and (orientation: landscape) {
+                body {
+                    background-image: url("ntflx1.jpg");
+                }
+            }
+            @media screen and (orientation: portrait) {
+                body {
+                    background-image: url("ntflx2.png");
+                    background-repeat: no-repeat;
+                    background-size: 100% 600px;
+                }
+            }
+            body {
+                color:white;
+            }
+        </style>
+    </head>
+    <body>
+        <div style="display: flex; justify-content: center; align-items: center; height: 600px;">
+            <h1>Watch Movies Online</h1>
+        </div>
+    </body>
+</html>
