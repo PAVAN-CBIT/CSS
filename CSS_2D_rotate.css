@@ -1,0 +1,24 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Translate</title>
+        <style>
+           #bgm{
+            -moz-transform: rotate(0 deg);
+            transform: rotate(0deg);
+               border: 2px solid red;
+               margin-left: 200px;
+               margin-top: 200px;
+           }
+           #bgm:hover{
+            -moz-transform: rotate(30 deg);
+            transform: rotate(30deg);
+           }
+           
+        </style>
+    </head>
+    <body>
+        <img src="messi.jpg" id="bgm">
+    </body>
+</html>
