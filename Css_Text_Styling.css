@@ -1,0 +1,28 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Selectors</title>
+        <style>
+            body{
+                
+                color:whitesmoke;
+                background-color: black;
+            }
+            h1{
+                text-shadow: 2px 3px 3px green;
+                border: 5px solid blue;
+                opacity: 0.5;
+                font-family: Geneva;
+                
+                
+                
+            }
+        </style>
+    </head>
+    <body>
+        <div style="display: flex; justify-content: center; align-items: center; height: 600px;">
+            <h1>I N F O S Y S</h1>
+        </div>
+    </body>
+</html>
