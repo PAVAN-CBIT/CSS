@@ -1,0 +1,36 @@
+<html>
+<head>
+
+    <title>2D</title>
+    <style>
+        body{
+            background-color: yellow;
+        }
+        img{
+            margin-left: 200px;
+           
+                  transition: 5s;
+            
+            border: 3px solid tomato;
+        }
+        img:hover{
+               transform:skew(-30deg);
+                  transition: 5s;
+        }
+    </style>
+
+</head>
+
+
+
+
+
+<body>
+    <div>
+        <img src="gzmnn.jpg" width="200" height="200">
+    </div>
+</body>
+
+
+
+</html>
