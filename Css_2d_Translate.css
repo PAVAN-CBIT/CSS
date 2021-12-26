@@ -1,0 +1,34 @@
+<html>
+<head>
+
+    <title>2D</title>
+    <style>
+        body{
+            background-color: yellow;
+        }
+        img{
+            margin-left: 200px;
+            
+            transition: 3s;
+            border: 3px solid tomato;
+        }
+        img:hover{
+                  transform:translate(500px,500px);
+        }
+    </style>
+
+</head>
+
+
+
+
+
+<body>
+    <div>
+        <img src="gzmnn.jpg" width="300" height="300">
+    </div>
+</body>
+
+
+
+</html>
