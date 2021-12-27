@@ -1,0 +1,72 @@
+<html>
+<head>
+                    <style>
+                        div{
+                            background-color: black;
+                            color: red;
+                            border: 2px solid yellow;
+                            height: 50px;
+                            width: 100px;
+                            text-align: center;
+                            animation-name: first;
+                            animation-duration: 5s;
+                            animation-delay: 3s;
+                            animation-iteration-count: 3;
+                            position: relative;
+                            animation-fill-mode: backwards;
+                        
+                            
+                        }
+                        @keyframes first{
+                                                0%{
+                                                                    background-color:yellow;
+                                                                color: black;
+                                                                border: 2px solid green;
+                                                                left: 0px;
+                                                                top: 0px;
+                                                    }
+                                                25%{
+                                                                    background-color: pink;
+                                                                color:violet;
+                                                                border: 2px solid blue;
+                                                                left: 200px;
+                                                                top: 0px;
+                                                    }
+                                                50%{
+                                                                    background-color: blue;
+                                                                color: brown;
+                                                                border: 2px solid black;
+                                                                left: 200px;
+                                                                top: 200px;
+                                                    }
+                                                75%{
+                                                                    background-color: orange;
+                                                                color: greenyellow;
+                                                                border: 2px solid whitesmoke;
+                                                                left: 0px;
+                                                                top: 200px;
+                                                    }
+                                                100%{
+                                                                    background-color: yellow;
+                                                                color:black;
+                                                                border: 2px solid green;
+                                                                left: 0px;
+                                                                top: 0px;
+                                                    }
+                        }
+                    </style>
+
+
+
+
+</head>
+<body>
+
+                <div>
+                    P A V A N
+                </div>
+
+</body>
+
+
+</html>
