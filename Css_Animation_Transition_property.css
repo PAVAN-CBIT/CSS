@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Selectors</title>
+        <style>
+            .box {
+                width: 100px;
+                height: 60px;
+                background-color: red;
+                transition-timing-function: steps(5);
+                transition-property: width;
+                transition-duration: 3s;
+            }
+            .box:hover {
+                width: 100%;
+                background-color: yellow;
+                transition-duration: 2s;
+                transition-property: width;
+
+                transition-duration: 3s;
+               
+            }
+        </style>
+    </head>
+    <body>
+       <div class="box" style="text-align: center;">
+           P a v a n
+       </div>
+    </body>
+</html>
