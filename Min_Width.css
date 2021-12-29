@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Media Query</title>
+<style>
+    @media screen and (min-width:400px) {
+                    body{
+                           background-color: tomato;
+                        }
+                  }
+                 
+</style>
+
+</head>
+<body>
+
+
+
+<h2>Responsive Design</h2>
+<p>Media queries in CSS</p>
+
+
+
+</body>
+</html>
