@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Tool Bar</title>
+<meta name="viewport" content="width=device-width,initial scale=1">
+<link rel="stylesheet" href="../node_modules/bootstrap-icons/font/bootstrap-icons.css">
+<style type="text/css" media="screen">
+             ul{
+                list-style: none;
+               }
+               a:link {
+                text-decoration: none;
+                color:red;
+            }
+            li{
+                width: 150px;
+                background-color:black;
+                color: blue;
+                padding: 5px;
+                 font-size: 22px;
+            }
+            @media screen and (orientation:landscape) {
+                                                         ul{
+                                                            display: flex;
+                                                            background-color:blue;
+                                                           }
+                                                           li{
+                                                               margin-right: 45px;
+                                                           }
+
+                
+                                                      }
+             @media screen and (orientation:portrait) {
+                                                         ul{
+                                                            display: block;
+                                                            margin-left:-80px;
+                                                            transition: 3s;
+                                                           }
+                                                           ul:hover {
+                                                                        margin-left: 0px;
+                                                                        transition: 5s;
+                                                                    }
+                                                         li{
+                                                             width: 30px;
+                                                         }
+                                                         .nav-item-text {
+                                                                           display: none;
+                                                                        }
+
+                
+                                                      }
+
+
+ </style>   
+    
+</head>
+
+
+
+
+<body>
+
+<nav>
+<ul>
+    <li><a href="#"><span class="bi bi-house"></span> <span class="nav-item-text">Home</span> </a></li>
+    <li><a href="#"><span class="bi bi-person"></span><span class="nav-item-text">Login</span></a></li>
+    <li><a href="#"><span class="bi bi-bell"></span><span class="nav-item-text">Notifications</span></a></li>
+    <li><a href="#"><span class="bi bi-facebook"></span><span class="nav-item-text">Facebook</span></a></li>
+</ul>
+
+</nav>
+
+</body>
+</html>
