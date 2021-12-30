@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>R Design</title>
+    <meta name="viewport" content="width=device-width,initial scale=1">
+    <style type="text/css" media="screen">
+        section{
+                      display: grid;
+                      grid-template-columns: 3fr 6fr 3fr;
+                      height: 500px;
+
+                }
+          header,footer,nav,main,aside{
+               border: 2px solid red;
+               margin: 3px;
+               text-align: center;
+               font-size: 30px;
+          }   
+          header,footer{
+              background-color: green;
+          }   
+          nav,aside{
+              background-color: blue;
+          }
+          main{
+              background-color: yellow;
+          }
+          #container{
+              border: 7px solid black;
+              box-shadow: 2px 3px 3px palevioletred;
+              color: whitesmoke;
+          }
+
+    </style>
+
+</head>
+
+
+
+
+<body>
+
+<div id="container">
+                            <header>
+                               Header
+                            </header>
+                            <section>
+                                                <nav>
+                                                   Navigation
+                                                </nav>
+                                                <main>
+                                                    Main content
+
+                                                </main>
+                                                <aside>
+                                                     Ads
+                                                </aside>
+
+                            </section>
+                            <footer>
+                                Footer
+                            </footer>
+</div>
+
+
+</body>
+</html>
